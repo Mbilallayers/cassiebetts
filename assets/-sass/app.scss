@@ -115,7 +115,7 @@ a:focus {
 }
 .donate-section {
   padding: 60px 0 0;
-  background: url(../images/HOTandCOOL_donation-page.jpg) center/cover no-repeat, #e06c2f
+  background: url(../images/HOTandCOOL_donation-page.png) center/cover no-repeat, #e06c2f
 }
 .pro-section{
   padding: 70px 0 100px;
@@ -296,53 +296,8 @@ a:focus {
   width: 100%;
   left: 0;
 }
-.blog_heading {
-  font-size: 18px;
-  font-family: lemonmilk-medium;
-  color: #414141;
-  min-height: 43.2px;
-}
-.blog_post p{
-  font-family: CenturyGothic;
-  font-weight: 600;
-  font-size: 16px;
-  color: #8d8d8d;
-}
-.blog_post {
-  background: #FFF;
-  box-shadow: 0px 0px 10px #ddd;
-  border-radius: 5px;
-  overflow: hidden;
-  transition: .3s all ease-in-out;
-  .blog_meta {
-    padding: 25px 20px;
-  }
-  &:hover {
-    transform: scale(1.05)!important;
-  }
-}
-.blog_detail {
-  p {
-    font-family: myriad-pro-regular;
-    font-size: 18px;
-    font-weight: 400;
-    color: #555555d1;
-  }
-  a {
-    color: #a50e0e;
-  }
-  h2 {
-    font-size: 26px;
-    letter-spacing: .8px;
-    font-family: lemonmilk-medium;
-  }
-  h3 {
-    font-size: 22px;
-    letter-spacing: .8px;
-    font-family: lemonmilk-Regular;
 
-  }
-}
+
 .time-heading {
   font-size: 32px;
   color: #FFF;

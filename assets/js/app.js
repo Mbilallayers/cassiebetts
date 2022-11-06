@@ -4,10 +4,14 @@ $(document).ready(function() {
 
     $(window).scroll(function(){
         $('.eapps-link').remove();
+        $('.eapps-instagram-feed a').css('display','none');
+        $(".eapps-instagram-feed a").removeAttr("style");
+
+       
     });
 
-    $('.parallax-img').jarallax({
-    });
+    // $('.parallax-img').jarallax({
+    // });eapps-link
 
     // SLICK SLIDER
     $(".pro-carousel").slick({
@@ -57,6 +61,56 @@ $(document).ready(function() {
 
         ]
     });
+
+    $(".social-impact-slider").slick({
+        dots: false,
+        infinite: true,
+        arrows: true,
+        slidesToShow: 1,
+        autoplay: true,
+        prevArrow: '<button class="slick-prev slick-arrow" aria-label="Previous"><img src="assets/images/icon-left.png" alt="left"></button>',
+        nextArrow: '<button class="slick-next slick-arrow" aria-label="Previous"><img src="assets/images/icon-%20right.png" alt="right"></button>',
+        pauseOnHover: true,
+        autoplaySpeed: 4000,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint:992,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint:768,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint:576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: true,
+                    dots: false
+                }
+            }
+
+        ]
+    });
+
+
     // AOS initilaize
     AOS.init({
         disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
